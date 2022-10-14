@@ -1,0 +1,37 @@
+body {
+    padding: 20px;
+    margin-top: 0px;
+    border: 0px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.image {
+    background-image: url("/img/ninja.png");
+    background-size: cover;
+    min-height: 240px;
+    flex-basis: 22%;
+    max-height: 240px;
+}
+
+.container {
+    width: 980px;
+    height: 450px;
+    display: flex;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+
+.btn {
+    margin-top: 70px;
+    background-color: green;
+    padding: 10px 25px;
+    color: white;
+    font-size: small;
+    font-weight: 600;
+}
